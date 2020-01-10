@@ -9,12 +9,12 @@ $border-color: #454d55;
     border: 1px solid $border-color;
 }
 
-.table tr:nth-child(even), thead {
-    background: #454d55;
+.table tr:nth-child(even), th {
+    background: #343a40;
 }
 
 .table tr:nth-child(odd) {
-    background: #343a40;
+    background: #454d55;
 }
 
 .table td, th {

@@ -21,7 +21,7 @@ class GetQuotes extends React.Component {
 
     renderQuotes = (quotes) => {
         return(
-            <table>
+            <table className="table">
                 <thead>
                     <tr>
                         <th>Channel</th>
@@ -33,10 +33,10 @@ class GetQuotes extends React.Component {
                 <tbody>
                     { quotes.map(quote => (
                         <tr key={quote.id}>
-                            <td>{quote.email}</td>
+                            <td>Daut</td>
                             <td>{quote.id}</td>
                             <td>{quote.body}</td>
-                            <td>{quote.name}</td>
+                            <td>trollabot</td>
                         </tr>
                     ))}
                 </tbody>

@@ -1,0 +1,28 @@
+$border-color: #454d55;
+
+.table {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    color: #fff;
+    border-spacing: 0;
+    border: 1px solid $border-color;
+}
+
+.table tr:nth-child(even), thead {
+    background: #454d55;
+}
+
+.table tr:nth-child(odd) {
+    background: #343a40;
+}
+
+.table td, th {
+    border-bottom: 1px solid $border-color;
+    border-left: 1px solid $border-color;
+    padding: 5px;
+}
+
+
+
+

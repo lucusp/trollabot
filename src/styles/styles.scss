@@ -1,28 +1,33 @@
-$border-color: #454d55;
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 
-.table {
+body {
+    margin: 0;
+}
+
+.trolla-nav {
     width: 100%;
-    max-width: 1200px;
+    height: 55px;
+    background: #550000;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    color: #fff;
-    border-spacing: 0;
-    border: 1px solid $border-color;
+    line-height: 55px;
+    
+    span {
+        font-family: Pacifico;
+        font-size: 35px;
+        color: #AA3939;
+        text-shadow: 0.5px 0.5px 2px #FFAAAA;
+    }
 }
 
-.table tr:nth-child(even), th {
-    background: #343a40;
+.header {
+    margin-top: 55px;
 }
 
-.table tr:nth-child(odd) {
-    background: #454d55;
+th {
+    position: sticky;
+    top: 0;
+    margin: 0;
+    background: #e0e0e0;
 }
-
-.table td, th {
-    border-bottom: 1px solid $border-color;
-    border-left: 1px solid $border-color;
-    padding: 5px;
-}
-
-
-
-

@@ -21,11 +21,11 @@ class GetQuotes extends React.Component {
 
     renderQuotes = (quotes) => {
         return(
-            <table className="table">
+            <table className="pure-table pure-table-striped" style={{ paddingTop: "45px" }}>
                 <thead>
                     <tr>
                         <th>Channel</th>
-                        <th>Quote Id</th>
+                        <th>#</th>
                         <th>Quote</th>
                         <th>Added By</th>
                     </tr>

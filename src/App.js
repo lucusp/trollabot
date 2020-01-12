@@ -1,10 +1,19 @@
 import React from 'react';
-import GetQuotes from './components/GetQuotes'
+import Menu from './components/Menu';
+import Header from './components/Header';
+import Content from './components/Content';
+
 
 class App extends React.Component {
   render() {
     return (
-      <GetQuotes />
+      <div id="layout">
+        <Menu />
+        <div id="main">
+          <Header />
+          <Content />
+        </div>
+      </div>
     )
   }
 };

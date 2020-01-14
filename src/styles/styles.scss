@@ -192,6 +192,7 @@ ul li ul li {
   font-weight: 300;
   margin: 45px auto;
   border-collapse: collapse;
+  width: 80%;
   
   .table-header {
     background: #ccc;
@@ -201,10 +202,16 @@ ul li ul li {
   th, td {
     padding: 15px;
     border: 1px solid #eee;
+    text-align: center;
+    vertical-align: middle;
   }
   
   .table-row:nth-child(even) {
-    background: #eee;
+    background: #ddd;
+  }
+
+  .table-row::nth-child(odd) {
+    background: #fff;
   }
 }
 

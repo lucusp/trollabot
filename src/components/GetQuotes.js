@@ -21,26 +21,20 @@ class GetQuotes extends React.Component {
 
     renderQuotes = (quotes) => {
         return(
-            <table className="pure-table pure-table-striped" style={{ paddingTop: "45px" }}>
-                <thead>
-                    <tr>
-                        <th>Channel</th>
+                <>
+                    <tr className="table-header table-row">
                         <th>#</th>
                         <th>Quote</th>
                         <th>Added By</th>
                     </tr>
-                </thead>
-                <tbody>
                     { quotes.map(quote => (
-                        <tr key={quote.id}>
-                            <td>Daut</td>
+                        <tr className="table-row" key={quote.id}>
                             <td>{quote.id}</td>
-                            <td>{quote.body}</td>
+                            <td className="quote-text">{quote.body}</td>
                             <td>trollabot</td>
                         </tr>
                     ))}
-                </tbody>
-            </table>
+                </>
 
         )
 

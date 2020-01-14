@@ -3,11 +3,11 @@ import { FaTachometerAlt, FaQuoteLeft } from 'react-icons/fa';
 
 
 const Menu = () => (
-    <div class="menu">
-        <div class="trolla-title">trollabot</div>
-            <ul class="menu-list">
-                <a href="#"><li class="menu-item"><FaTachometerAlt /> Dashboard</li></a>
-                <a href="#"><li class="menu-item active-item"><FaQuoteLeft /> Quotes</li></a>
+    <div className="menu">
+        <div className="trolla-title">trollabot</div>
+            <ul className="menu-list">
+                <a href="#"><li className="menu-item"><FaTachometerAlt /> Dashboard</li></a>
+                <a href="#"><li className="menu-item active-item"><FaQuoteLeft /> Quotes</li></a>
             </ul>
     </div>
 )

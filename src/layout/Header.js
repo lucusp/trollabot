@@ -3,11 +3,11 @@ import React from 'react';
 
 const Header = () => (
 
-        <div class="header">
+        <div className="header">
             <ul>
                 <li>
-                    <a href="#" class="btn stream-toggle">Stream</a>
-                    <ul class="dropdown">
+                    <a href="#" className="btn stream-toggle">Stream</a>
+                    <ul className="dropdown">
                         <li>Daut</li>
                         <li>jonslow_</li>
                     </ul>

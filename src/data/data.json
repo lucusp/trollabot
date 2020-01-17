@@ -1,0 +1,28 @@
+[
+    {
+        "stream":"daut",
+        "quotes": [
+            {
+                "id": 1,
+                "quote": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+            },
+            {
+                "id": 2,
+                "quote": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+            }
+        ]
+    },
+    {
+        "stream": "jonslow_",
+        "quotes": [
+            {
+                "id": 1,
+                "quote": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+            },
+            {
+                "id": 2,
+                "quote": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit"
+            }
+        ]
+    }
+]

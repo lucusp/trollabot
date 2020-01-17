@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/trollabot/static/css/main.698c2ebd.chunk.css",
+    "main.js": "/trollabot/static/js/main.bb4910d7.chunk.js",
+    "main.js.map": "/trollabot/static/js/main.bb4910d7.chunk.js.map",
+    "runtime-main.js": "/trollabot/static/js/runtime-main.865eb400.js",
+    "runtime-main.js.map": "/trollabot/static/js/runtime-main.865eb400.js.map",
+    "static/js/2.a294696d.chunk.js": "/trollabot/static/js/2.a294696d.chunk.js",
+    "static/js/2.a294696d.chunk.js.map": "/trollabot/static/js/2.a294696d.chunk.js.map",
+    "index.html": "/trollabot/index.html",
+    "precache-manifest.14efa3022dfa80c646b6a6873d478f3b.js": "/trollabot/precache-manifest.14efa3022dfa80c646b6a6873d478f3b.js",
+    "service-worker.js": "/trollabot/service-worker.js",
+    "static/css/main.698c2ebd.chunk.css.map": "/trollabot/static/css/main.698c2ebd.chunk.css.map",
+    "static/js/2.a294696d.chunk.js.LICENSE": "/trollabot/static/js/2.a294696d.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.865eb400.js",
+    "static/js/2.a294696d.chunk.js",
+    "static/css/main.698c2ebd.chunk.css",
+    "static/js/main.bb4910d7.chunk.js"
+  ]
+}
